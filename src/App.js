@@ -5,6 +5,7 @@ import './App.css';
 // import Hello from './Hello';
 // import Props from './Props';
 import DefaultProps from './DefaultProps';
+import State from './State';
 
 DefaultProps.defaultProps = {
   text: 'This is Default Props...'
@@ -26,9 +27,7 @@ class App extends Component {
           /> */}
           <DefaultProps text="Title in component" />
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <State />
       </div>
     );
   }
